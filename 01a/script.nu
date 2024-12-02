@@ -19,4 +19,4 @@ let totals = $diff
 | math sum
 | insert index total
 
-echo $diff | append $totals
+$diff | append $totals

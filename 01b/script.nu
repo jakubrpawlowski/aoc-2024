@@ -19,4 +19,4 @@ let totals = $appearances
 | math sum
 | insert index total
 
-echo $appearances | append $totals
+$appearances | append $totals
